@@ -12,19 +12,25 @@ To get this project running on your local machine, follow these steps:
 
 Clone the repository:
 ```shell
-git clone https://github.com/whsiaor/
-Django_Inventory_Management_System.git
+git clone https://github.com/whsiaor/Django_Inventory_Management_System.git
 ```
 Navigate to the project directory:
 ```shell
-cd djangocourse
+cd Django_Inventory_Management_System
 ```
 
 Activate the pipenv environment:
 ```shell
 pipenv shell
+```
+
 Install Django using pipenv:
+```shell
 pipenv install django
+```
+cd into `invApp` and start the program:
+```shell
+python manage.py runserver
 ```
 
 ## Future Imporvment
